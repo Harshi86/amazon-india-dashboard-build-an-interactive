@@ -2,6 +2,8 @@
 
 An interactive Streamlit dashboard for exploring Amazon India order performance. It turns the supplied sales dataset into a management view of sales, profitability, products, order outcomes, payment and fulfillment channels, and state level performance.
 
+An Excel dashboard is also included for users who prefer working in a workbook: [Amazon India Excel Dashboard.xlsx](outputs/01a18c95-60b7-7392-a28c-e6f6e47c0158/Amazon%20India%20Excel%20Dashboard.xlsx). Open the **Dashboard** sheet in Excel and use the dropdown filters to explore the included KPIs and charts. The **Analysis** and **Raw Data** sheets provide the supporting summaries and order records.
+
 ## Dashboard features
 
 - Filter the dashboard by order date, product category, shipping state, and order status.
@@ -45,6 +47,8 @@ outputs/
   app.py             Streamlit dashboard
   amazon_sales.csv   Dashboard data
   Amazon Sales Data India.xlsx  Source workbook
+  01a18c95-60b7-7392-a28c-e6f6e47c0158/
+    Amazon India Excel Dashboard.xlsx  Interactive Excel companion
   amazon_india_analysis.ipynb   Exploratory analysis
   dashboard_preview.png         Dashboard screenshot
   requirements.txt              Python dependencies
